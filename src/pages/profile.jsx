@@ -30,7 +30,7 @@ const Profile = () => {
                 <Link to="/calendar" className="hover:text-gray-400">Calendar</Link>
               </li>
               <li className="mb-4">
-                <Link to="/profile" className="hover:text-gray-400">kch bhi</Link>
+                <Link to="/profile" className="hover:text-gray-400">Profile</Link>
               </li>
             </ul>
           </nav>
