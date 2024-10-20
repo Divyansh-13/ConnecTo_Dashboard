@@ -1,6 +1,7 @@
 // src/pages/Chats.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaComments, FaCalendarAlt, FaUser, FaBook } from 'react-icons/fa';
 
 const Chats = () => {
   return (
@@ -17,20 +18,28 @@ const Chats = () => {
 
       <div className="flex flex-1">
         {/* Sidebar */}
-        <aside className="w-48 bg-gray-700 text-white h-full p-4">
+        <aside className="w-48 bg-gray-700 text-white h-full p-4 shadow-lg">
           <nav>
             <ul>
               <li className="mb-4">
-                <Link to="/" className="hover:text-gray-400">Menu</Link>
+                <Link to="/" className="flex items-center hover:text-gray-400 transition">
+                  <FaBook className="mr-2"/> Dashboard
+                </Link>
               </li>
               <li className="mb-4">
-                <Link to="/chats" className="hover:text-gray-400">Chats</Link>
+                <Link to="/chats" className="flex items-center hover:text-gray-400 transition">
+                  <FaComments className="mr-2"/> Chats
+                </Link>
               </li>
               <li className="mb-4">
-                <Link to="/calendar" className="hover:text-gray-400">Calendar</Link>
+                <Link to="/calendar" className="flex items-center hover:text-gray-400 transition">
+                  <FaCalendarAlt className="mr-2"/> Calendar
+                </Link>
               </li>
               <li className="mb-4">
-                <Link to="/profile" className="hover:text-gray-400">Profile</Link>
+                <Link to="/profile" className="flex items-center hover:text-gray-400 transition">
+                  <FaUser className="mr-2"/> Profile
+                </Link>
               </li>
             </ul>
           </nav>
