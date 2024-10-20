@@ -23,7 +23,7 @@ const Dashboard = () => {
             <ul>
               <li className="mb-4">
                 <Link to="/" className="flex items-center hover:text-gray-400 transition">
-                  <FaBook className="mr-2"/> Resources
+                  <FaBook className="mr-2"/> Dashboard
                 </Link>
               </li>
               <li className="mb-4">
@@ -60,10 +60,10 @@ const Dashboard = () => {
             <h3 className="text-xl font-semibold mb-4">Success Stories</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition text-black">
-                <p>"Thanks to my mentor, I've gained the confidence to pursue my career goals!" - Mentee A</p>
+                <p>"Thanks to my mentor , I've gained the confidence to pursue my career goals!" - Vishal</p>
               </div>
               <div className="bg-gray-100 p-4 rounded-lg shadow hover:shadow-lg transition text-black">
-                <p>"The guidance I received was invaluable in navigating my job search." - Mentee B</p>
+                <p>"The guidance I received was invaluable in navigating my job search." - Sahil</p>
               </div>
             </div>
           </section>
