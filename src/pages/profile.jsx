@@ -7,7 +7,7 @@ const Profile = () => {
   const [profileData, setProfileData] = useState({
     fullName: 'Divyansh Sharma',
     email: 'sharmadivyansh022@gmail.com',
-    shopName: '',
+    Education: '',
     gender: 'Male',
     state: 'Uttar Pradesh',
   });
