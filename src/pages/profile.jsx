@@ -115,7 +115,7 @@ const Profile = () => {
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700">Shop Name</label>
+                <label className="block text-sm font-medium text-gray-700">Education</label>
                 <input
                   type="text"
                   name="shopName"
