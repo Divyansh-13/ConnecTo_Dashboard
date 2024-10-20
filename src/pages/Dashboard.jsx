@@ -42,8 +42,8 @@ const Dashboard = () => {
           <p className="text-gray-700 mb-4">
           At ConnecTo, our mission is to foster meaningful connections between mentors and mentees. 
           Our mentor page serves as a platform for experienced professionals to guide and support 
-          those looking to grow in their careers. Whether you're seeking advice, resources, or 
-          encouragement, our mentors are here to help you navigate your journey.
+          those looking to grow in their careers. Whether they're seeking advice, resources, or 
+          encouragement, with mentors like you which are here to help mentee's get navigated in there journey.
           </p>
           {/* Add more components or content here */}
         </main>
