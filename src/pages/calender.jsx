@@ -18,7 +18,7 @@ const Calendar = () => {
 
       <div className="flex flex-1">
         {/* Sidebar */}
-        <aside className="w-48 bg-gray-700 text-white h-full p-4 shadow-lg">
+        <aside className="w-48 bg-gray-800 text-white h-100 p-4 shadow-lg">
           <nav>
             <ul>
               <li className="mb-4">
