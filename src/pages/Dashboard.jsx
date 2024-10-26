@@ -7,18 +7,18 @@ const Dashboard = () => {
   return (
     <div className="flex flex-col min-h-screen bg-gradient-to-r from-blue-500 to-purple-600">
       {/* Top Navigation */}
-      <header className="bg-gray-800 text-white p-4 flex justify-between items-center shadow-md">
-        <h1 className="text-2xl font-bold">ConnecTo</h1>
+      <header className="bg-gray-800 text-white p-4 flex justify-between items-center">
+        <h1 className="text-xl font-bold">ConnecTo</h1>
         <nav>
           <ul className="flex space-x-4">
-            <li><a href="#" className="hover:text-gray-400 transition">Logout</a></li>
+            <li><a href="#" className="hover:text-gray-400">Logout</a></li>
           </ul>
         </nav>
       </header>
 
       <div className="flex flex-1">
         {/* Sidebar */}
-        <aside className="w-48 bg-gray-700 text-white h-full p-4 shadow-lg">
+        <aside className="w-48 bg-gray-700 text-white h-100 p-4 shadow-lg">
           <nav>
             <ul>
               <li className="mb-4">
